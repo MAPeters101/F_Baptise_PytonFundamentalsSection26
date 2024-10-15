@@ -32,3 +32,28 @@ def hello():
 
 hello.name = 'says hello'
 print(hello.name)
+
+del p1.name
+#print(p1.name)
+print(globals)
+print(p1.__dict__)
+p1.name = 'John'
+print(p1.__dict__)
+p2 = Person()
+print(p1.__dict__)
+p2.first_name = ('John')
+p2.last_name = 'Clease'
+print(p2.__dict__)
+print(p2.first_name)
+
+
+l = tuple()
+print(type(l), l)
+l = tuple([1,2,3])
+print(type(l), l)
+
+
+
+
+
+
